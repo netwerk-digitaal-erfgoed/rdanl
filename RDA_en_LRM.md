@@ -5,7 +5,7 @@ RDA maakt het mogelijk om rijker en specifieker te catalogiseren, vereenvoudigt 
 
 ## IFLA Library Reference Model
 
-RDA is gegrondvest op het IFLA Library Reference Model (LRM). LRM is een model dat concepten en relaties definieert ter modellering van bibliografische beschrijvingen, gericht op het tegemoet kunnen komen aan hedendaagse gebruikerswensen [^1]. Centraal in LRM staan de zogenaamde WEMI-entiteiten, ofwel instanties uit de klasses `Work`, `Expression`, `Manifestation` en `Item`.
+RDA is gegrondvest op het IFLA Library Reference Model (LRM). LRM is een model dat concepten en relaties definieert ter modellering van bibliografische beschrijvingen, gericht op het tegemoet kunnen komen aan hedendaagse gebruikerswensen. De zogenaamde *user tasks*, het helpen van gebruikers bij het vinden, identificeren, selecteren, verkrijgen en ontdekken van de gewenste informatie, zie [[IFLA-LRM]]. Centraal in LRM staan de zogenaamde WEMI-entiteiten, ofwel instanties uit de klasses `Work`, `Expression`, `Manifestation` en `Item`.
 
 * `Work`: Een intellectuele of artistieke creatie op het **conceptuele niveau**. 
 
@@ -41,19 +41,17 @@ RDA specificeert bij ieder kenmerk op welke klasse entiteiten het betrekking hee
 
 De waarde van een RDA-kenmerk *moet* dus voldoen aan de gespecificeerde *range*. RDA biedt verschillende manieren om dit te correct vast te leggen. Er kan bijvoorbeeld direct naar een `Person`-entiteit verwezen worden door de linked data-IRI van die persoon op te nemen. In RDA is ook het volgende toegestaan:
 
-	:work_x	rdaw:authorPerson "Douwes Dekker, Eduard (1820-1887)" .
+<xmp highlight=turtle>
+  :work_x rdaw:authorPerson "Douwes Dekker, Eduard (1820-1887)" .
+</xmp>
 
 In RDA betekent dit dat het werk (`:work_x`) geschreven is door een persoon die als naam of (geauthoriseerde) ingang `"Douwes Dekker, Eduard (1820-1887)"` heeft. Naast gebruik van de linked data-IRI en een, al dan niet volgens regels gestructeerde, tekenreeks staat RDA ook toe om als *recording method* een systeemeigen identifier te gebruiken. 
 
-Hoewel RDA gefundeerd is in RDF en linked data, wijkt het met deze principes rondom *range* en *recording method* wat af, van wat daar gebruikelijk is. Meer hierover in [RDA als linked data](rdf/RDA_als_linkeddata.md).
+Hoewel RDA gefundeerd is in RDF en linked data, wijkt het met deze principes rondom *range* en *recording method* wat af, van wat daar gebruikelijk is. Meer hierover in [RDA als linked data](#rda-als-ld).
 
 ### *Recording methods* en implementatie-scenario's
 RDA kan ingezet worden in traditionele catalogiseersystemen maar ook binnen linked data-omgevingen. De mogelijkheden van het informatiesysteem zijn mede bepalend voor hoe RDA toegepast kan worden, met name ten aanzien van de te volgen *recording methods*. RDA spreekt hierbij over verschillende **implementatie scenario's**. 
 
-In een linked data-omgeving zullen bijvoorkeur IRI's [^2] gebruikt worden om relaties tussen RDA-entiteiten vast te leggen. Dit noemt RDA het '*linked open data*'-implementatie-scenario. In een catalogiseersysteem zijn IRI's vaak niet voorhanden. Relaties tussen RDA-entiteiten zullen dan gelegd worden via bijvoorbeeld geautoriseerde ingangen (zoals `"Douwes Dekker, Eduard (1820-1887)"`. Dit is het bibliografische- of '*authority data*'-scenario. Relaties kunnen ook via abstracte *identifiers* uit het informatiesysteem vastgelegd worden. Dit is het relationele- of object georienteerde-scenario.
+In een linked data-omgeving zullen bijvoorkeur IRI's gebruikt worden om relaties tussen RDA-entiteiten vast te leggen. Dit noemt RDA het '*linked open data*'-implementatie-scenario. IRI's (of URI's) zijn *identifiers* in de vorm van een http(s) -URL, een webadres. Dit is de standaard manier waarop in linked data entiteiten van een *identifier* worden voorzien. In een catalogiseersysteem zijn IRI's vaak niet voorhanden. Relaties tussen RDA-entiteiten zullen dan gelegd worden via bijvoorbeeld geautoriseerde ingangen (zoals `"Douwes Dekker, Eduard (1820-1887)"`. Dit is het bibliografische- of '*authority data*'-scenario. Relaties kunnen ook via abstracte *identifiers* uit het informatiesysteem vastgelegd worden. Dit is het relationele- of object georienteerde-scenario.
 
-De al dan niet door het informatiesysteem beperkte keuze voor een implementatiescenario *kan* gevolgen hebben voor de wijze waarop informatie het beste vastgelegd kan worden. Zie hiervoor ook [RDA als linked data](rdf/RDA_als_linkeddata.md).
-
- 
-[^1]: De zogenaamde *user tasks*, het helpen van gebruikers bij het vinden, identificeren, selecteren, verkrijgen en ontdekken van de gewenste informatie, zie [IFLA LRM](https://www.ifla.org/wp-content/uploads/2019/05/assets/cataloguing/frbr-lrm/ifla-lrm-august-2017_rev201712.pdf) 
-[^2]: IRI's (of URI's) zijn *identifiers* in de vorm van een http(s) -URL, een webadres. Dit is de standaard manier waarop in linked data entiteiten van een *identifier* worden voorzien.
+De al dan niet door het informatiesysteem beperkte keuze voor een implementatiescenario *kan* gevolgen hebben voor de wijze waarop informatie het beste vastgelegd kan worden. Zie hiervoor ook [RDA als linked data](#rda-als-ld).

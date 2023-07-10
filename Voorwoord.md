@@ -8,3 +8,5 @@ RDA heeft een grote uitdrukkingskracht, is flexibel, en toepasbaar in traditonel
 Dat is wat ook dit RDA-toepassingsprofiel biedt. De horizon is het gebruik voor het beschrijven van de **Nederlandse bibliografie**, in deze fase nog beperkt tot monografieën, waaronder ook luisterboeken.
 
 Dit profiel richt zich op een **brede groep gebruikers**. Van catalografen in tradtionele, op *records*-gebaseerde catalogiseersystemen, die als eerste stap metadata willen verrijken om **RDA-entiteiten herkenbaar** te kunnen maken, via metadata-specialisten, die **systemen op RDA willen aansluiten**, tot aan ontwikkelaars uit de wereld van **linked data-gebaseerde integratievoorzieningen**.
+
+Dit RDA-toepassingsprofiel is opgesteld door Sita Bhagwandin, Djoke Dam, Meta van der Waal-Gentenaar, René Voorburg en Brigitte den Oudsten van de [KB | nationale bibliotheek](https://www.kb.nl/), in opdracht van [Netwerk Digitaal Erfgoed](https://netwerkdigitaalerfgoed.nl) en met financiële steun uit programmalijn [Verbonden Digitaal Erfgoed](https://www.stichtingpica.nl/programmalijnen/verbonden-digitaal-erfgoed/) van [Stichting PICA](https://www.stichtingpica.nl/).

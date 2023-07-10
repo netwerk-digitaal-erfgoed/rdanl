@@ -1,13 +1,37 @@
-# Voorbeelden RDA als RDF
+Voorbeelden RDA als RDF {#examples}
+=============
 
-In deze map staan voorbeeldbestanden die het gebruik van het RDA-toepassingsprofiel voor het publiceren van linked data (RDF) illustreren.
+Uitwerking van de modellering van Personae in RDA {#examples-personae}
+-------------
 
-Bestand [`personae_rdanl.ttl`](personae_rdanl.ttl) biedt een uitwerking van de [modellering van Personae in RDA](../../Persona_in_RDA.md).
+<pre class=include-code>
+path: rdf/examples/personae_rdanl.ttl
+highlight: turtle
+</pre>
 
-Voorbeeld [`example_rda.ttl`](example_rda.ttl) biedt een beschrijving in RDA van een `Manifestation` de bijbehorende `Expression`, `Work`, `Person` en *Persona* van "*Een vrouw van het noorden*" van Louis Couperus. Dezelfde entiteiten worden op semantisch identieke wijze beschreven in [`example_rdanl.ttl`](example_rdanl.ttl), maar dan gebruikmakend van de afgeleide klasses en kenmerken zoals gedefinieerd in het [toepassingsprofiel RDANL in RDF](../profile/).
+Uitwerkingen Een vrouw van het noorden (Louis Couperus) {#examples-louis-couperus}
+-------------
 
-Ter vergelijking is het voorbeeld in [`example_schema.ttl`](example_schema.ttl) ook in het schema.org-vocabulaire uitgewerkt. Dit op basis van het [LRM to schema.org-toepassingsprofiel](http://data.bibliotheken.nl//files/LRM2schema.pdf).
+Een beschrijving in RDA van een `Manifestation` de bijbehorende `Expression`, `Work`, `Person` en *Persona* van "*Een vrouw van het noorden*" van Louis Couperus. 
 
+<pre class=include-code>
+path: rdf/examples/example_rda.ttl
+highlight: turtle
+</pre>
+
+Dezelfde entiteiten worden op semantisch identieke wijze beschreven, maar dan gebruikmakend van de afgeleide klasses en kenmerken zoals gedefinieerd in het toepassingsprofiel.
+
+<pre class=include-code>
+path: rdf/examples/personae_rdanl.ttl
+highlight: turtle
+</pre>
+
+Ter vergelijking is het voorbeeld in het schema.org-vocabulaire uitgewerkt. Dit op basis van het [LRM to schema.org-toepassingsprofiel](http://data.bibliotheken.nl//files/LRM2schema.pdf).
+
+<pre class=include-code>
+path: rdf/examples/example_schema.ttl
+highlight: turtle
+</pre>
 
 ## Gevolgde principes
 De voorbeeld-RDF van "*Een vrouw van het noorden*" is op de volgende principes gebaseerd:
@@ -19,6 +43,15 @@ De voorbeeld-RDF van "*Een vrouw van het noorden*" is op de volgende principes g
 * Op vergelijkbare wijze is voor landencodes gebruik gemaakt van literals volgens [ISO 3166-1 alpha-2](https://nl.wikipedia.org/wiki/ISO_3166-1_alpha-2) .
 * `Timespans` worden ingevuld als literals volgens [ISO 8601](https://nl.wikipedia.org/wiki/ISO_8601), zonder een datatype-aanduiding.
 * Bij de `placeOfPublication` wordt een geneste constructie gebruikt, om zo plaatsnaam en land met elkaar te kunnen verbinden.
-* De RDF wordt opgebouwd volgens de [modellering van Personae in RDA](../../Persona_in_RDA.md).
+* De RDF wordt opgebouwd volgens de [modellering van Personae in RDA](#persona-in-rda).
 * Kenmerken als `languageOfRepresentativeExpression` worden op het meest specifieke niveau aangeduid, dus in dit voorbeeld als eigenschap van het object van `representatieveExpression`, niet als eigenschap van het `Work` (wat uiteraard alleen mogelijk is als er ook een `representativeExpression` aangewezen kan worden).
 
+De volgende kleurcodering wordt er in de voorbeelden gebruikt:
+
+🟩Work🟩
+
+🟦Expression🟦
+
+🟨Manifestation🟨
+
+🟥Item🟥 

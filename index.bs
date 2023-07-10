@@ -2,6 +2,7 @@
 Title: RDA toepassingsprofiel Nederlandse bibliografie
 Shortname: rdanl
 Markup Shorthands: css yes, markdown yes
+Boilerplate: omit conformance
 Level: 1
 Status: LD
 URL: https://github.com/netwerk-digitaal-erfgoed/rdanl/
@@ -19,7 +20,8 @@ Abstract: Een toepassingsprofiel, die een passende selectie van elementen uit de
   "ifla-lrm": {
     "href": "https://repository.ifla.org/handle/123456789/40",
     "title": "FIFLA Library Reference Model: A Conceptual Model for Bibliographic Information",
-    "publisher": "International Federation of Library Associations and Institutions (IFLA)"
+    "publisher": "International Federation of Library Associations and Institutions (IFLA)",
+    "date": "august 2017, amended and corrected december 2017"
   }
 }
 </pre>
@@ -87,8 +89,3 @@ path: examples/Traditioneel_minimaal2.md
 <pre class=include>
 path: examples/Uitwerking_met_RIMMF.md
 </pre>
-
-Afsluitend {#afsluitend}
-=====================
-
-Dit RDA-toepassingsprofiel is opgesteld door Sita Bhagwandin, Djoke Dam, Meta van der Waal-Gentenaar, René Voorburg en Brigitte den Oudsten van de [KB | nationale bibliotheek](https://www.kb.nl/), in opdracht van [Netwerk Digitaal Erfgoed](https://netwerkdigitaalerfgoed.nl) en met financiële steun uit programmalijn '[Verbonden Digitaal Erfgoed](https://www.stichtingpica.nl/programmalijnen/verbonden-digitaal-erfgoed/)' van [Stichting PICA](https://www.stichtingpica.nl/).
