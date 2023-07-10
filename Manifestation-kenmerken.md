@@ -1,4 +1,5 @@
-# Toe te passen RDA-kenmerken voor `Manifestation`-entiteiten
+Toe te passen RDA-kenmerken voor Manifestation-entiteiten {#manifestation-kenmerken}
+--------------------
 
 Zie ook overzicht [RDA-kenmerken](RDA-kenmerken.md).
 

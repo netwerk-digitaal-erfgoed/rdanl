@@ -1,4 +1,5 @@
-# Scope toepassingsprofiel
+Scope toepassingsprofiel {#scope-toepassingsprofiel}
+=====================
 
 Het RDA-toepassingsprofiel beperkt zich tot die RDA-entiteiten, RDA-elementen en vocabulaires, die minimaal nodig zijn om bruikbare en linked data te kunnen vormen.
 

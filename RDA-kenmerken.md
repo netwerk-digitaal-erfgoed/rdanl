@@ -1,13 +1,5 @@
-# Toe te passen RDA-kenmerken
-
-Toe te passen RDA-kenmerken voor monografieën:
-
-* [voor `Works`](Work-kenmerken.md)
-* [voor `Expressions`](Expression-kenmerken.md)
-* [voor `Manifestations`](Manifestation-kenmerken.md)
-* [voor `Items`](Item-kenmerken.md)
-
-## Leeswijzer
+Toe te passen RDA-kenmerken {#rda-kenmerken}
+=====================
 
 De tabellen met kenmerken zijn opgebouwd uit de volgende kolommen:
 
@@ -30,22 +22,22 @@ De elementen zijn ingedeeld in de volgende categorieën (waar van toepassing):
 * **Special relationships**: Gespecialiseerde elementen die worden gebruikt  om de relaties van de entiteit te beschrijven. 
 
 
-## Achtergrond
+Achtergrond {#rda-kenmerken-achtergrond}
+--------------------
 
-De overzichten van de toe te passen kenmerken zijn gebaseerd op de richtlijnen van RDA ten aanzien van de e**isen van effectieve beschrijving** [^3].
+De overzichten van de toe te passen kenmerken zijn gebaseerd op de richtlijnen van RDA ten aanzien van de **eisen van effectieve beschrijving** [^3].
 
 * Het voldoet aan de eisen van een **coherente beschrijving**[^4] van een bron 
 * En ten minste één van zijn entiteiten voldoet aan de **minimumbeschrijving** gesteld binnen RDA 
 * Andere elementen kunnen toegevoegd worden aan de beschrijving van één of meer entiteiten die nuttig worden geacht voor de identificatie of toegang. 
 * Beschrijving van andere entiteiten kunnen toegevoegd worden aan de coherente beschrijving van een resource die nuttig geacht worden voor de identificatie of toegang. 
 
-## Uitgewerkte voorbeelden
+Uitgewerkte voorbeelden {#rda-kenmerken-voorbeelden}
+--------------------
 
 Er zijn twee uitwerkingen gemaakt van een [beschrijving in RDF](rdf/examples), volgens een linked data-implementatiescenario, zowel met RDA-elementen als met elementen uit de afgeleide [`rdanl`-ontologie](rdf/profile).
 
 Bovendien is er een voorbeeld van een uitgebreide [beschrijving gemaakt met RIMMF](examples/Uitwerking_met_RIMMF.md). [^5]
-
-
 
 [^1]: Zie [Nederlandse Thesaurus van Auteurnamen](http://data.bibliotheken.nl/id/dataset/persons). Hoewel deze nu nog niet naar RDA klassen omgezet is kan deze gebruikt voor `Persons` (op indirecte wijze) of (direct) voor de centrale `Nomen` van een [Persona](Persona_in_RDA.md).
 [^2]: Zie [Brinkman-thesaurus](http://data.bibliotheken.nl/id/dataset/brinkman).

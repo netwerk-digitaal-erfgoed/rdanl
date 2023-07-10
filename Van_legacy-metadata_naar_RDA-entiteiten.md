@@ -1,4 +1,5 @@
-# Van 'legacy'-metadata naar RDA-entiteiten
+Van 'legacy'-metadata naar RDA-entiteiten {#van-legacy}
+=====================
 
 De introductie van een nieuwe catalogiseerstandaard stelt bibliotheekinstellingen voor de opgave om hun bestaande bibliografische metadata ('legacy'-metadata) daarmee in overeenstemming te brengen. 
 

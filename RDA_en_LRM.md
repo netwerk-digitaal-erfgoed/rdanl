@@ -1,4 +1,5 @@
-# RDA en IFLA LRM
+RDA en IFLA LRM {#rda-en-ifla-lrm}
+=====================
 
 RDA maakt het mogelijk om rijker en specifieker te catalogiseren, vereenvoudigt de stap naar het publiceren van bruikbare linked data en laat de metadata dankzij modellering in entiteiten beter aansluiten op een scala aan gebruikerswensen.
 

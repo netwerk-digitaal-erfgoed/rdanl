@@ -1,4 +1,5 @@
-# RDA als linked data
+RDA als linked data {#rda-als-ld}
+=====================
 
 Voor informatieprofessionals met een achtergrond in linked data en RDF, lijkt RDA op het eerste gezicht niets anders te zijn dan 'gewoon' een specialistisch RDF-vocabulaire gericht op het bibliotheekdomein. In de kern klopt dat, maar vaak is RDA anders opgezet dan je vanuit een gangbaar RDF-perspectief zou verwachten. Om RDA beter te kunnen doorgronden, en zo bijvoorbeeld spraakverwarring met collega’s te voorkomen, worden hier enige belangrijke verschillen met meer reguliere linked data-benaderingen behandeld.
 

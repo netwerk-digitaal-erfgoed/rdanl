@@ -1,4 +1,5 @@
-# Toe te passen RDA-kenmerken voor `Work`-entiteiten
+Toe te passen RDA-kenmerken voor Work-entiteiten{#work-kenmerken}
+--------------------
 
 Zie ook overzicht [RDA-kenmerken](RDA-kenmerken.md).
 

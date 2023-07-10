@@ -1,4 +1,5 @@
-# Toe te passen RDA-kenmerken voor `Expression`-entiteiten
+Toe te passen RDA-kenmerken voor Expression-entiteiten {#item-kenmerken}
+--------------------
 
 Zie ook overzicht [RDA-kenmerken](RDA-kenmerken.md).
 

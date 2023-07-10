@@ -1,4 +1,5 @@
-# Introductie van de 'Persona' binnen RDA
+Introductie van de 'Persona' binnen RDA {#persona-in-rda}
+=====================
 
 Zoals ook besproken in [RDA als linked data](./rdf/RDA_als_linkeddata.md), kan informatie verloren gaan als van het meest gangbare RDA-implementatiescenario, gebaseerd op (geautoriseerde) ingangen, overgestapt wordt op het linked data-implementatiescenario, gebaseerd op IRI's. Dit komt omdat geautoriseerde ingangen, anders dan IRI's, niet zomaar *identifers* zijn maar **betekenisdragende** *identifiers*.
 
