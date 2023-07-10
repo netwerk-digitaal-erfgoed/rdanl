@@ -58,7 +58,7 @@ Bij de publieke identiteit van een persoon, van een auteur, hoort dus dikwijls e
 RDA biedt de mogelijkheid om vergelijkbare namen als `Nomen` aan elkaar te verbinden met het `equivalentTo`-kenmerk (`rdan:P80113`) en zo clusters te vormen. Dit is nog geen volledige oplossing voor het werken met de *Persona*. 
 Een praktisch eis is niet alleen het kunnen vastlegen van *Persona*-`Nomen`-clusters, maar ook dat die clusters in een geautomatiseerd systeem eenvoudig herkend kunnen worden. 
 
-Hiertoe wordt, zoals voorgesteld binnen dit toepassingsprofiel, gebouwd op de RDA-kenmerken `rdaa:P50429` ("*has real identity of Person*") en `rdaa:P500428` ("h*as alternate identity of person*"). Deze kenmerken verwijzen bij de voorgesteld aanpak **alleen naar de centrale naam** (`Nomen`) in de *Persona*-cluster. Een *Persona* van een auteur wordt zo gereflecteerd door deze twee kenmerken gecombineerd met de daaraan gekoppelde `Nomen`-clusters. De volgende afbeelding illustreert deze aanpak [^1].
+Hiertoe wordt, zoals voorgesteld binnen dit toepassingsprofiel, gebouwd op de RDA-kenmerken `rdaa:P50429` ("*has real identity of Person*") en `rdaa:P500428` ("h*as alternate identity of person*"). Deze kenmerken verwijzen bij de voorgesteld aanpak **alleen naar de centrale naam** (`Nomen`) in de *Persona*-cluster. Een *Persona* van een auteur wordt zo gereflecteerd door deze twee kenmerken gecombineerd met de daaraan gekoppelde `Nomen`-clusters. De volgende afbeelding illustreert deze aanpak (Zie ook [Modeling Agents and Personas/Pseudonyms #340(https://github.com/uwlib-cams/MARC2RDA/discussions/340)):
 
 ![persona](assets/465625/fc7d0820-5911-4790-8017-f48072f4c954)
 
@@ -70,10 +70,11 @@ Voor linked data-toepassingen zullen behalve de `Works` en de `Person` ook de ce
 ## Meer over de toepassing van 'Personae'
 Een uitwerking in RDF van de `rdanl:Person` "Eduard Douwes Dekker" en bijbehorende *Personae* is te vinden in [`personae_rdanl.ttl`](rdf/examples/personae_rdanl.ttl).
 
-Het [RDANL toepassingsprofiel](./rdf/profile) biedt, aanvullend op RDA, het afgeleide kenmerk `rdanl:relatedPersonaOfWork` [^2] om daarme de relatie tussen het `Work` en de `Nomen` die de 'Persona' representeert, meer expliciet te kunnen maken.
+Het [RDANL toepassingsprofiel](./rdf/profile) biedt, aanvullend op RDA, het afgeleide kenmerk `rdanl:relatedPersonaOfWork` (als *subproperty* van `rdanl:relatedNomenOfWork` / `rdaw:P10318`) om daarme de relatie tussen het `Work` en de `Nomen` die de 'Persona' representeert, meer expliciet te kunnen maken.
 
 De aanpak met `Nomen`-clusters als *Personae* buit de mogelijkheden die RDA biedt volledig uit. Voor een gestructueerde en rijkere beschrijving van een *Persona* zal RDA waarschijnlijk niet de benodigde kenmerken bieden. Bijvoorbeeld, bij een *Persona* dat niet slechts een *pseudoniem* is maar een compleet gefingeerde persoon (een *heteroniem*), zou bijvoorbeeld de wens kunnen bestaan om de gefingeerde geboortedatum toe te voegen. Noodzakelijk lijkt het om hier nieuwe kenmerken voor te definieren, zo mogelijk als afgeleide van een RDA-kenmerk. Ter illustratie een suggestie van zo'n definitie:
 
+ <xmp highlight=turtle>
 	@base <http://data.bibliotheken.nl/rdanl> . 
 	@prefix rdan: <http://rdaregistry.info/Elements/n/> .
 	@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -83,8 +84,4 @@ De aanpak met `Nomen`-clusters als *Personae* buit de mogelijkheden die RDA bied
     	rdfs:isDefinedBy <#> ;
     	rdfs:subPropertyOf rdan:P80071 ; "has note on Nomen"
     	rdfs:comment "Verbindt een fictieve geboortedatum aan een Nomen als Persona."@nl .
-	
- 
-
-[^1]: Zie ook [https://github.com/uwlib-cams/MARC2RDA/discussions/340]()
-[^2]: Als *subproperty* van `rdanl:relatedNomenOfWork` / `rdaw:P10318` . 
+</xmp>
