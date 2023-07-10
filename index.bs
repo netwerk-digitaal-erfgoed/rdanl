@@ -85,9 +85,10 @@ examples/Traditioneel_minimaal2.md
 examples/Uitwerking_met_RIMMF.md
 </pre>
 
-## Afsluitend
+Afsluitend {#afsluitend}
+=====================
 
-Dit RDA-toepassingsprofiel is opgesteld door Sita Bhagwandin, Djoke Dam,  Meta van der Waal-Gentenaar, René Voorburg en Brigitte den Oudsten van de [KB | nationale bibliotheek](https://www.kb.nl/), in opdracht van [Netwerk Digitaal Erfgoed](https://netwerkdigitaalerfgoed.nl) en met financiële steun uit programmalijn '[Verbonden Digitaal Erfgoed](https://www.stichtingpica.nl/programmalijnen/verbonden-digitaal-erfgoed/)' van de [Stichting PICA](https://www.stichtingpica.nl/).
+Dit RDA-toepassingsprofiel is opgesteld door Sita Bhagwandin, Djoke Dam, Meta van der Waal-Gentenaar, René Voorburg en Brigitte den Oudsten van de [KB | nationale bibliotheek](https://www.kb.nl/), in opdracht van [Netwerk Digitaal Erfgoed](https://netwerkdigitaalerfgoed.nl) en met financiële steun uit programmalijn '[Verbonden Digitaal Erfgoed](https://www.stichtingpica.nl/programmalijnen/verbonden-digitaal-erfgoed/)' van de [Stichting PICA](https://www.stichtingpica.nl/).
 
 
 [^1]: RDA wordt beheerd door de [RDA Steering Committee](http://www.rda-rsc.org)
