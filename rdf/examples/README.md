@@ -6,6 +6,8 @@ Bestand [`personae_rdanl.ttl`](personae_rdanl.ttl) biedt een uitwerking van de [
 
 Voorbeeld [`example_rda.ttl`](example_rda.ttl) biedt een beschrijving in RDA van een `Manifestation` de bijbehorende `Expression`, `Work`, `Person` en *Persona* van "*Een vrouw van het noorden*" van Louis Couperus. Dezelfde entiteiten worden op semantisch identieke wijze beschreven in [`example_rdanl.ttl`](example_rdanl.ttl), maar dan gebruikmakend van de afgeleide klasses en kenmerken zoals gedefinieerd in het [toepassingsprofiel RDANL in RDF](../profile/).
 
+Ter vergelijking is het voorbeeld in [`example_schema.ttl`](example_schema.ttl) ook in het schema.org-vocabulaire uitgewerkt. Dit op basis van het [LRM to schema.org-toepassingsprofiel](http://data.bibliotheken.nl//files/LRM2schema.pdf).
+
 
 ## Gevolgde principes
 De voorbeeld-RDF van "*Een vrouw van het noorden*" is op de volgende principes gebaseerd:
