@@ -60,7 +60,7 @@ Een praktisch eis is niet alleen het kunnen vastlegen van *Persona*-`Nomen`-clus
 
 Hiertoe wordt, zoals voorgesteld binnen dit toepassingsprofiel, gebouwd op de RDA-kenmerken `rdaa:P50429` ("*has real identity of Person*") en `rdaa:P500428` ("h*as alternate identity of person*"). Deze kenmerken verwijzen bij de voorgesteld aanpak **alleen naar de centrale naam** (`Nomen`) in de *Persona*-cluster. Een *Persona* van een auteur wordt zo gereflecteerd door deze twee kenmerken gecombineerd met de daaraan gekoppelde `Nomen`-clusters. De volgende afbeelding illustreert deze aanpak [^1].
 
-![persona](https://github.com/renevoorburg/rdanl/assets/465625/fc7d0820-5911-4790-8017-f48072f4c954)
+![persona](assets/465625/fc7d0820-5911-4790-8017-f48072f4c954)
 
 In de voorgaande afbeelding zijn twee 'Personae' te zien rondom de persoon die vooral bekend geworden is als de schrijver van het `Work` "Max Havelaar". Dit werd gepubliceerd onder het pseudoniem "Multatuli." Deze naam representeert de eerste *Persona*, en is de centrale `Nomen` in de eerste `Nomen`-cluster. De schrijver publiceerde ook onder zijn eigen naam, "Eduard Douwes Dekker". Deze naam representeert de tweede *Persona* en staat centraal in de tweede `Nomen`-cluster. 
 
