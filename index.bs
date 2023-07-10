@@ -1,0 +1,94 @@
+<pre class='metadata'>
+Title: RDA toepassingsprofiel Nederlandse bibliografie
+Shortname: rdanl
+Markup Shorthands: css yes, markdown yes
+Level: 1
+Status: LD
+URL: https://github.com/netwerk-digitaal-erfgoed/rdanl/
+Editor: 
+    Sita Bhagwandin, KB | nationale bibliotheek
+    Djoke Dam, KB | nationale bibliotheek
+    Meta van der Waal-Gentenaar, KB | nationale bibliotheek
+    René Voorburg, KB | nationale bibliotheek
+    Brigitte den Oudsten, KB | nationale bibliotheek
+Abstract: Een toepassingsprofiel, die een passende selectie van elementen uit de RDA standaard, voorzien van implementatie-voorbeelden, aanvullende richtlijnen en uitleg biedt voor het Nederlandse bibliografie domein.
+</pre>
+
+Voorwoord {#voorwoord}
+=====================
+
+Om bibliografische beschrijvingen van het **tijdperk van de kaartenbak** naar dat van **linked data** te brengen, en zo een **breed scala aan gebruikerswensen** te kunnen ondersteunen, daar is een nieuw fundament voor nodig. De catalogiseerstandaard **RDA** (*Resource Description and Access* [^1]) en daarmee het onderliggende conceptuele model **IFLA LRM** (IFLA Library Reference Model [^2]), biedt dit.
+
+RDA heeft een grote uitdrukkingskracht, is flexibel, en toepasbaar in traditonele catalogiseersystemen én in linked data-voorzieningen. Een keerzijde hiervan is een hoge complexiteit. Om RDA in te kunnen zetten is daarom doorgaans een **toepassingsprofiel** onmisbaar. Een toepassingsprofiel vereenvoudigt de implementatie binnen een specifiek domein, door het bieden van **een passende selectie van elementen uit de standaard**, voorzien van **implementatie-voorbeelden**, **aanvullende richtlijnen** en **uitleg**.
+ 
+Dat is wat ook dit RDA-toepassingsprofiel biedt. De horizon is het gebruik voor het beschrijven van de **Nederlandse bibliografie**, in deze fase nog beperkt tot monografieën, waaronder ook luisterboeken.
+
+Dit profiel richt zich op een **brede groep gebruikers**. Van catalografen in tradtionele, op *records*-gebaseerde catalogiseersystemen, die als eerste stap metadata willen verrijken om **RDA-entiteiten herkenbaar** te kunnen maken, via metadata-specialisten, die **systemen op RDA willen aansluiten**, tot aan ontwikkelaars uit de wereld van **linked data-gebaseerde integratievoorzieningen**.
+
+<pre class=include>
+path: Scope_toepassingsprofiel.md
+</pre>
+
+<pre class=include>
+path: RDA_en_LRM.md
+</pre>
+
+<pre class=include>
+Van_legacy-metadata_naar_RDA-entiteiten.md
+</pre>
+
+<pre class=include>
+RDA-kenmerken.md
+</pre>
+
+<pre class=include>
+Work-kenmerken.md
+</pre>
+
+<pre class=include>
+Expression-kenmerken.md
+</pre>
+
+<pre class=include>
+Manifestation-kenmerken.md
+</pre>
+
+<pre class=include>
+Item-kenmerken.md
+</pre>
+
+<pre class=include>
+Persona_in_RDA.md
+</pre>
+
+<pre class=include>
+rdf/RDA_als_linkeddata.md
+</pre>
+
+<pre class=include>
+rdf/profile/README.md
+</pre>
+
+<pre class=include>
+rdf/examples/README.md
+</pre>
+
+<pre class=include>
+examples/Traditioneel_minimaal1.md
+</pre>
+
+<pre class=include>
+examples/Traditioneel_minimaal2.md
+</pre>
+
+<pre class=include>
+examples/Uitwerking_met_RIMMF.md
+</pre>
+
+## Afsluitend
+
+Dit RDA-toepassingsprofiel is opgesteld door Sita Bhagwandin, Djoke Dam,  Meta van der Waal-Gentenaar, René Voorburg en Brigitte den Oudsten van de [KB | nationale bibliotheek](https://www.kb.nl/), in opdracht van [Netwerk Digitaal Erfgoed](https://netwerkdigitaalerfgoed.nl) en met financiële steun uit programmalijn '[Verbonden Digitaal Erfgoed](https://www.stichtingpica.nl/programmalijnen/verbonden-digitaal-erfgoed/)' van de [Stichting PICA](https://www.stichtingpica.nl/).
+
+
+[^1]: RDA wordt beheerd door de [RDA Steering Committee](http://www.rda-rsc.org)
+[^2]: Zie [IFLA Library Reference Model: A Conceptual Model for Bibliographic Information](https://repository.ifla.org/handle/123456789/40)
