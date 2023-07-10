@@ -34,55 +34,55 @@ path: RDA_en_LRM.md
 </pre>
 
 <pre class=include>
-Van_legacy-metadata_naar_RDA-entiteiten.md
+path: Van_legacy-metadata_naar_RDA-entiteiten.md
 </pre>
 
 <pre class=include>
-RDA-kenmerken.md
+path: RDA-kenmerken.md
 </pre>
 
 <pre class=include>
-Work-kenmerken.md
+path: Work-kenmerken.md
 </pre>
 
 <pre class=include>
-Expression-kenmerken.md
+path: Expression-kenmerken.md
 </pre>
 
 <pre class=include>
-Manifestation-kenmerken.md
+path: Manifestation-kenmerken.md
 </pre>
 
 <pre class=include>
-Item-kenmerken.md
+path: Item-kenmerken.md
 </pre>
 
 <pre class=include>
-Persona_in_RDA.md
+path: Persona_in_RDA.md
 </pre>
 
 <pre class=include>
-rdf/RDA_als_linkeddata.md
+path: rdf/RDA_als_linkeddata.md
 </pre>
 
 <pre class=include>
-rdf/profile/README.md
+path: rdf/profile/README.md
 </pre>
 
 <pre class=include>
-rdf/examples/README.md
+path: rdf/examples/README.md
 </pre>
 
 <pre class=include>
-examples/Traditioneel_minimaal1.md
+path: examples/Traditioneel_minimaal1.md
 </pre>
 
 <pre class=include>
-examples/Traditioneel_minimaal2.md
+path: examples/Traditioneel_minimaal2.md
 </pre>
 
 <pre class=include>
-examples/Uitwerking_met_RIMMF.md
+path: examples/Uitwerking_met_RIMMF.md
 </pre>
 
 Afsluitend {#afsluitend}
