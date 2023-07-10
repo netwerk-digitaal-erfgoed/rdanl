@@ -51,4 +51,4 @@ Bovendien is er een voorbeeld van een uitgebreide [beschrijving gemaakt met RIMM
 [^2]: Zie [Brinkman-thesaurus](http://data.bibliotheken.nl/id/dataset/brinkman).
 [^3]: Zie [RDA Toolkit - Effective description](https://access.rdatoolkit.org/Guidance/Index).
 [^4]: "*Een set van entiteiten die de resource beschrijven en gerelateerd zijn gebruikmakend van basis structurele elementen.*", zie [RDA Toolkit - Glossary](https://access.rdatoolkit.org/Glossary).
-[^5]: [RIMMF](https://www.rimmf.com/) - RDA in Many Metadata Formats" - is een hulpmiddel voor MS Windows voor het (leren) werken met RDA.
+[^5]: \[RIMMF](https://www.rimmf.com/) - RDA in Many Metadata Formats" - is een hulpmiddel voor MS Windows voor het (leren) werken met RDA.

@@ -70,7 +70,7 @@ In dit voorbeeld van RIMMF wordt niet de voorgestelde [Persona-aanpak](Persona_i
 | [rdam:P30139](http://rdaregistry.info/Elements/m/P30139) | **expressionManifested** |  "Couperus, Louis (1863-1923) \| "Aan den weg der vreugde \| text \| Dutch" |
 | [rdam:P30294](http://rdaregistry.info/Elements/m/P30294) | **authorizedAccessPointForManifestation** | "Aan den weg der vreugde \| L.J. Veen \| [1908] | volume" |
 | [rdam:P30156](http://rdaregistry.info/Elements/m/P30156) | **titleProper** |  "Aan den weg der vreugde" |
-| [rdam:P30105](http://rdaregistry.info/Elements/m/P30105): | **statementOfResponsibilityRelatingToTitleProper** | "door Louis Couperus" | 
+| [rdam:P30105](http://rdaregistry.info/Elements/m/P30105) | **statementOfResponsibilityRelatingToTitleProper** | "door Louis Couperus" | 
 | [rdam:P30109](http://rdaregistry.info/Elements/m/P30109) | **manufactureStatement** |  "Nijmegen : G.J. Thieme" |
 | [rdam:P30175](http://rdaregistry.info/Elements/m/P30175) | **nameOfManufacturer** |  "G.J. Thieme" | 
 | [rdam:P30087](http://rdaregistry.info/Elements/m/P30087) | **placeOfManufacture** | "Nijmegen" |
@@ -118,7 +118,7 @@ In dit voorbeeld van RIMMF wordt niet de voorgestelde [Persona-aanpak](Persona_i
 | [rdam:P30328](http://rdaregistry.info/Elements/m/P30328) | **titleOfSeries** | "Ullstein-Bücher" |
 | [rdam:P30105](http://rdaregistry.info/Elements/m/P30105) | **statementOfResponsibilityRelatingToTitleProper** | "autor. Übertr. aus dem Holländischen von Else Otten" | 
 | [rdam:P30335](http://rdaregistry.info/Elements/m/P30335) | **otherTitleInformation** | "Roman" |
-| [rdam:P30111](http://rdaregistry.info/Elements/m/P30111): | **publicationStatement** |  "Amsterdam : L.J. Veen, [1908]" |
+| [rdam:P30111](http://rdaregistry.info/Elements/m/P30111) | **publicationStatement** |  "Amsterdam : L.J. Veen, [1908]" |
 | [rdam:P30176](http://rdaregistry.info/Elements/m/P30176) | **nameOfPublisher** | "Ullstein" |
 | [rdam:P30088](http://rdaregistry.info/Elements/m/P30088) | **placeOfPublication** |  "Berlin" |
 | [rdam:P30011](http://rdaregistry.info/Elements/m/P30011) | **dateOfPublication** | "[1920]" |
@@ -129,5 +129,4 @@ In dit voorbeeld van RIMMF wordt niet de voorgestelde [Persona-aanpak](Persona_i
 | [rdam:P30002](http://rdaregistry.info/Elements/m/P30002) | **mediaType** | "unmediated" |
 
 
-[^1]: [RIMMF](https://www.rimmf.com/) - RDA in Many Metadata Formats" - is een hulpmiddel voor MS Windows voor het (leren) werken met RDA.
-
+[^1]: \[RIMMF](https://www.rimmf.com/) - RDA in Many Metadata Formats" - is een hulpmiddel voor MS Windows voor het (leren) werken met RDA.
