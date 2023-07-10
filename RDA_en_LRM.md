@@ -18,7 +18,7 @@ LRM is niet alleen geschikt voor het beschrijven van bibliografische objecten. D
 
 Naast de klasses van de genoemde WEMI-entiteiten, kent LRM ook de klasse `Agent` voor de **verantwoordelijke** voor een *resource*. De klasse `Agent` heeft subklasses de `Person` en de `Collective Agent`. Deze laatste kan ook weer verdeeld worden in de `Corporate Body` en de `Family`.
 
-Hiernaast kent LRM ook de klasses `Nomen` en `Timespan` en een overkoepelende 'superklasse` waar alle klasses toe behoren.
+Hiernaast kent LRM ook de klasses `Nomen` en `Timespan` en een overkoepelende `superklasse` waar alle klasses toe behoren.
 
 ## RDA
 
