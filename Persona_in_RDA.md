@@ -14,7 +14,7 @@ Specifiek speelt dit informatieverlies bij de koppeling tussen `Work`-entiteiten
 
  <person_1>
   rdaa:authorizedAccessPointOfPerson “Dodgson, Charles Lutwidge” ;
-  rdaa:authorizedAccessPointOfPerson “Carroll, Lewis” .
+  rdaa:variantAccessPointOfPerson “Carroll, Lewis” .
 </xmp>
   
 Als we nu het object van de `rdaw:authorPerson`-relatie vervangen door de IRI `<person_1>`, dan kunnen we deze conclusie niet meer zomaar trekken. We weten dan niet meer welk `Work` behoort bij "*Lewis Carroll*":
@@ -28,7 +28,7 @@ Als we nu het object van de `rdaw:authorPerson`-relatie vervangen door de IRI `<
 
  <person_1>
   rdaa:authorizedAccessPointOfPerson “Dodgson, Charles Lutwidge” ;
-  rdaa:authorizedAccessPointOfPerson “Carroll, Lewis” .
+  rdaa:variantAccessPointOfPerson “Carroll, Lewis” .
 </xmp>
 
 ## Nomens als identiteiten
