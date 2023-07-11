@@ -105,7 +105,7 @@
     rdfs:label "place"@en, "plaats"@nl, "luogo"@it, "τόπος"@el, "sted"@da, "địa điểm"@vi, "lloc"@ca, "lieu"@fr, "hely"@hu, "paikka"@fi, "sted"@no, "Geografikum"@de, "مكان"@ar, "koht"@et, "vieta"@lv ;
     skos:definition "A given extent of space."@en, "Een bepaalde mate van ruimte."@nl, "Ubicazione identificata da un nome."@it, "Μια δεδομένη χωρική έκταση."@el, "Tilan tietty laajuus."@fi, "Givet omfang af rum."@da, "Một quy mô được nêu ra của không gian."@vi, "Eine definierte Ausdehnung eines Raums."@de, "Extensió d’espai determinada."@ca, "Portion d’espace déterminée."@fr, "A tér egy adott kiterjedése."@hu, "Et bestemt omfang i rom."@no, "حيز مكاني معين."@ar, "Teatud kindel ruumiulatus."@et, "Noteikta telpa."@lv .
  
-<#Entity>
+<#RDAEntity>
     a owl:Class ;
     rdfs:subClassOf <http://rdaregistry.info/Elements/c/C10013> ;
     rdfs:isDefinedBy <#> ; 
