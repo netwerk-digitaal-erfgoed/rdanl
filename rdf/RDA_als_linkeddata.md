@@ -71,7 +71,7 @@ Toen koningin Victoria vroeg om alle werken van de auteur van "*Alice in Wonderl
 
 	<person_1>
 		rdaa:authorizedAccessPointOfPerson “Dodgson, Charles Lutwidge” ;
-		rdaa:authorizedAccessPointOfPerson “Carroll, Lewis” .
+		rdaa:variantAccessPointOfPerson “Carroll, Lewis” .
 </xmp>
 
 Hieruit zou, in lijn met de gebruikerswens, opgemaakt kunnen worden dat `<person_1>` de auteur is van `<work_1>` én van `<work_2>` maar dat alleen `<work_1>` bekend werd als publicatie onder de auteursnaam "*Lewis Carroll*". 
