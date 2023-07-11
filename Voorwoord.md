@@ -1,7 +1,7 @@
 Voorwoord {#voorwoord}
 =====================
 
-Om bibliografische beschrijvingen van het **tijdperk van de kaartenbak** naar dat van **linked data** te brengen, en zo een **breed scala aan gebruikerswensen** te kunnen ondersteunen, daar is een nieuw fundament voor nodig. De door de [RDA Steering Committee](http://www.rda-rsc.org) neheerde catalogiseerstandaard **RDA** (*Resource Description and Access*) en daarmee het onderliggende conceptuele model [[IFLA-LRM]], biedt dit.
+Om bibliografische beschrijvingen van het **tijdperk van de kaartenbak** naar dat van **linked data** te brengen, en zo een **breed scala aan gebruikerswensen** te kunnen ondersteunen, daar is een nieuw fundament voor nodig. De door de [RDA Steering Committee](http://www.rda-rsc.org) heerde catalogiseerstandaard **RDA** (*Resource Description and Access*) en daarmee het onderliggende conceptuele model [[IFLA-LRM]], biedt dit.
 
 RDA heeft een grote uitdrukkingskracht, is flexibel, en toepasbaar in traditonele catalogiseersystemen én in linked data-voorzieningen. Een keerzijde hiervan is een hoge complexiteit. Om RDA in te kunnen zetten is daarom doorgaans een **toepassingsprofiel** onmisbaar. Een toepassingsprofiel vereenvoudigt de implementatie binnen een specifiek domein, door het bieden van **een passende selectie van elementen uit de standaard**, voorzien van **implementatie-voorbeelden**, **aanvullende richtlijnen** en **uitleg**.
  
