@@ -40,12 +40,12 @@ In dit voorbeeld van RIMMF wordt niet de voorgestelde [Persona-aanpak](#persona-
         <tr>
             <td>[rdaw:P10331](http://rdaregistry.info/Elements/w/P10331)</td>
             <td>**authorizedAccessPointForWork**</td>
-            <td>&quot;Couperus, Louis (1863-1923 \| Aan den weg der vreugde&quot;</td>
+            <td>&quot;Couperus, Louis (1863-1923 | Aan den weg der vreugde&quot;</td>
         </tr>
         <tr>
             <td>[rdaw:P10332](http://rdaregistry.info/Elements/w/P10332)</td>
             <td>**variantAccessPointForWork**</td>
-            <td>&quot;Couperus, Louis (1863-1923 \| Een vrouw van het noorden&quot;</td>
+            <td>&quot;Couperus, Louis (1863-1923 | Een vrouw van het noorden&quot;</td>
         </tr>
         <tr>
             <td>[rdaw:P10004](http://rdaregistry.info/Elements/w/P10004)</td>
@@ -60,7 +60,7 @@ In dit voorbeeld van RIMMF wordt niet de voorgestelde [Persona-aanpak](#persona-
         <tr>
             <td>[rdaw:P10078](http://rdaregistry.info/Elements/w/P10078)</td>
             <td>**expressionOfWork**</td>
-            <td>&quot;Couperus, Louis (1863-1923) \| Aan den weg der vreugde \| text \| Dutch&quot;</td>
+            <td>&quot;Couperus, Louis (1863-1923) | Aan den weg der vreugde | text | Dutch&quot;</td>
         </tr>
         <tr>
             <td>[rdaw:P10436](http://rdaregistry.info/Elements/w/P10436)</td>
@@ -101,17 +101,17 @@ In dit voorbeeld van RIMMF wordt niet de voorgestelde [Persona-aanpak](#persona-
         <tr>
             <td>[rdae:P20313](http://rdaregistry.info/Elements/e/P20313)</td>
             <td>**authorizedAccessPointForExpression**</td>
-            <td>&quot;Couperus, Louis (1863-1923) \| Aan den weg der vreugde \| text \| Dutch&quot;</td>
+            <td>&quot;Couperus, Louis (1863-1923) | Aan den weg der vreugde | text | Dutch&quot;</td>
         </tr>
         <tr>
             <td>[rdae:P20231](http://rdaregistry.info/Elements/e/P20231)</td>
             <td>**workExpressed**</td>
-            <td>&quot;Couperus, Louis (1863-1923 \| Aan den weg der vreugde&quot;</td>
+            <td>&quot;Couperus, Louis (1863-1923 | Aan den weg der vreugde&quot;</td>
         </tr>
         <tr>
             <td>[rdae:P20059](http://rdaregistry.info/Elements/e/P20059)</td>
             <td>**manifestationOfExpression**</td>
-            <td>&quot;Aan den weg der vreugde \| L.J. Veen \| [1908] \| volume &quot;</td>
+            <td>&quot;Aan den weg der vreugde | L.J. Veen | [1908] | volume &quot;</td>
         </tr>
         <tr>
             <td>[rdae:P20006](http://rdaregistry.info/Elements/e/P20006)</td>
@@ -150,12 +150,12 @@ In dit voorbeeld van RIMMF wordt niet de voorgestelde [Persona-aanpak](#persona-
         <tr>
             <td>[rdae:P20313](http://rdaregistry.info/Elements/e/P20313)</td>
             <td>**authorizedAccessPointForExpression**</td>
-            <td>&quot;Couperus, Louis (1863-1923) \| Een vrouw van het noorden \| text \| Dutch&quot;</td>
+            <td>&quot;Couperus, Louis (1863-1923) | Een vrouw van het noorden | text | Dutch&quot;</td>
         </tr>
         <tr>
             <td>[rdae:P20231](http://rdaregistry.info/Elements/e/P20231)</td>
             <td>**workExpressed**</td>
-            <td>&quot;Couperus, Louis (1863-1923 \| Aan den weg der vreugde&quot;</td>
+            <td>&quot;Couperus, Louis (1863-1923 | Aan den weg der vreugde&quot;</td>
         </tr>
         <tr>
             <td>[rdae:P20315](http://rdaregistry.info/Elements/e/P20315)</td>
@@ -165,7 +165,7 @@ In dit voorbeeld van RIMMF wordt niet de voorgestelde [Persona-aanpak](#persona-
         <tr>
             <td>[rdae:P20059](http://rdaregistry.info/Elements/e/P20059)</td>
             <td>**manifestationOfExpression**</td>
-            <td>&quot;Een vrouw van het noorden \| Pandorra \| [1999] \| volume \| 2e dr&quot;</td>
+            <td>&quot;Een vrouw van het noorden | Pandorra | [1999] | volume | 2e dr&quot;</td>
         </tr>
         <tr>
             <td>[rdae:P20006](http://rdaregistry.info/Elements/e/P20006)</td>
@@ -204,12 +204,12 @@ In dit voorbeeld van RIMMF wordt niet de voorgestelde [Persona-aanpak](#persona-
         <tr>
             <td>[rdae:P20313](http://rdaregistry.info/Elements/e/P20313)</td>
             <td>**authorizedAccessPointForExpression**</td>
-            <td>&quot;Am Wege der Freude \| text \| German \| Otten, Else (1873-1931)&quot;</td>
+            <td>&quot;Am Wege der Freude | text | German | Otten, Else (1873-1931)&quot;</td>
         </tr>
         <tr>
             <td>[rdae:P20231](http://rdaregistry.info/Elements/e/P20231)</td>
             <td>**workExpressed**</td>
-            <td>&quot;Couperus, Louis (1863-1923 \| Aan den weg der vreugde&quot;</td>
+            <td>&quot;Couperus, Louis (1863-19230) | Aan den weg der vreugde&quot;</td>
         </tr>
         <tr>
             <td>[rdae:P20315](http://rdaregistry.info/Elements/e/P20315)</td>
@@ -219,7 +219,7 @@ In dit voorbeeld van RIMMF wordt niet de voorgestelde [Persona-aanpak](#persona-
         <tr>
             <td>[rdae:P20059](http://rdaregistry.info/Elements/e/P20059)</td>
             <td>**manifestationOfExpression**</td>
-            <td>&quot;Am Wege der Freude \| Ulstein \| [1920] \| volume&quot;</td>
+            <td>&quot;Am Wege der Freude | Ulstein | [1920] | volume&quot;</td>
         </tr>
         <tr>
             <td>[rdae:P20346](http://rdaregistry.info/Elements/e/P20346)</td>
@@ -268,13 +268,13 @@ In dit voorbeeld van RIMMF wordt niet de voorgestelde [Persona-aanpak](#persona-
         <tr>
             <td>[rdam:P30139](http://rdaregistry.info/Elements/m/P30139)</td>
             <td>**expressionManifested**</td>
-            <td>&quot;Couperus, Louis (1863-1923) \| &quot;Aan den weg der vreugde \| text \| Dutch&quot;</td>
+            <td>&quot;Couperus, Louis (1863-1923) | &quot;Aan den weg der vreugde | text | Dutch&quot;</td>
             <td></td>
         </tr>
         <tr>
             <td>[rdam:P30294](http://rdaregistry.info/Elements/m/P30294)</td>
             <td>**authorizedAccessPointForManifestation**</td>
-            <td>&quot;Aan den weg der vreugde \| L.J. Veen \| [1908]</td>
+            <td>&quot;Aan den weg der vreugde | L.J. Veen | [1908]</td>
             <td>volume&quot;</td>
         </tr>
         <tr>
@@ -388,12 +388,12 @@ In dit voorbeeld van RIMMF wordt niet de voorgestelde [Persona-aanpak](#persona-
         <tr>
             <td>[rdam:P30139](http://rdaregistry.info/Elements/m/P30139)</td>
             <td>**expressionManifested**</td>
-            <td>&quot;Couperus, Louis (1863-1923) \| Een vrouw van het noorden \| text \| Dutch&quot;</td>
+            <td>&quot;Couperus, Louis (1863-1923) | Een vrouw van het noorden | text | Dutch&quot;</td>
         </tr>
         <tr>
             <td>[rdam:P30294](http://rdaregistry.info/Elements/m/P30294)</td>
             <td>**authorizedAccessPointForManifestation**</td>
-            <td>&quot;Een vrouw van het noorden \| Pandora \| [1999] \| volume \| 2e dr&quot;</td>
+            <td>&quot;Een vrouw van het noorden | Pandora | [1999] | volume | 2e dr&quot;</td>
         </tr>
         <tr>
             <td>[rdam:P30156](http://rdaregistry.info/Elements/m/P30156)</td>
@@ -502,12 +502,12 @@ In dit voorbeeld van RIMMF wordt niet de voorgestelde [Persona-aanpak](#persona-
         <tr>
             <td>[rdam:P30139](http://rdaregistry.info/Elements/m/P30139)</td>
             <td>**expressionManifested**</td>
-            <td>&quot;Am Wegen der Freude \| Ullstein \| [1920] \| volume&quot;</td>
+            <td>&quot;Am Wegen der Freude | Ullstein | [1920] | volume&quot;</td>
         </tr>
         <tr>
             <td>[rdam:P30294](http://rdaregistry.info/Elements/m/P30294)</td>
             <td>**authorizedAccessPointForManifestation**</td>
-            <td>&quot;Aan den weg der vreugde \| L.J. Veen \| [1908] \| volume&quot;</td>
+            <td>&quot;Aan den weg der vreugde | L.J. Veen | [1908] | volume&quot;</td>
         </tr>
         <tr>
             <td>[rdam:P30156](http://rdaregistry.info/Elements/m/P30156)</td>
