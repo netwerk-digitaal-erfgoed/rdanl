@@ -87,7 +87,7 @@ Als we nu de geautoriseerde ingangen vervangen door IRI’s, dan wordt duidelijk
 
 	<person_1>
 		rdaa:authorizedAccessPointOfPerson “Dodgson, Charles Lutwidge” ;
-		rdaa:authorizedAccessPointOfPerson “Carroll, Lewis” .
+		rdaa:variantAccessPointOfPerson “Carroll, Lewis” .
 </xmp>
 
 Een linked data-gebaseerde oplossing voor deze gebruikerswens is te vinden in [Introductie van de Persona binnen RDA](#persona-in-rda).
