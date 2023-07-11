@@ -8,7 +8,7 @@ Het toepassingsprofiel `rdanl` biedt in RDF-vorm:
 * aanvullende (rol-) kenmerken gebaseerd op een analyse van rollen gebruikt bij de beschrijving van de Nederlandse romans in het GGC,
 * aanvullende (rol-) kenmerken waarbij de *range* een `Agent` is.
 
-Deze laatste groep kenmerken is toevoegd om zo de semantische rijkdom van RDA te kunnen bieden bij RDF-toepassingen. Het principe hier achter is dat de veelheid van naar *range* en *domain* gedifferentieerde kenmerken die RDA biedt, geen semantische meerwaarde oplevert in een context waarbij alle entiteiten expliciet van een klasse-aanduiding voorzien zijn. Onder deze voorwaarde wordt een groot deel van de kenmerken van RDA overbodig en kan zo deze ontologie relatief beperkt blijven (deze ontologie biedt ~ 380 elementen).
+Deze laatste groep kenmerken is toevoegd om zo de semantische rijkdom van RDA te kunnen bieden bij RDF-toepassingen. Het principe hier achter is dat de veelheid van naar *range* en *domain* gedifferentieerde kenmerken die RDA biedt, geen semantische meerwaarde oplevert in een context waarbij alle entiteiten expliciet van een klasse-aanduiding voorzien zijn. Onder deze voorwaarde wordt een groot deel van de kenmerken van RDA overbodig en kan zo deze ontologie relatief beperkt blijven (deze ontologie biedt ~ 400 elementen).
 
 Dit profiel in RDF is minder uitgebreid dan RDA, maar omdat het een **extensie van RDA** is, kan het waar nodig, gecombineerd worden met elementen uit RDA zelf.
 
