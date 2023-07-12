@@ -11,6 +11,7 @@ Editor:
     Djoke Dam, KB | nationale bibliotheek
     Meta van der Waal-Gentenaar, KB | nationale bibliotheek
     René Voorburg, KB | nationale bibliotheek
+    Erik  Vos, KB | nationale bibliotheek
     Brigitte den Oudsten, KB | nationale bibliotheek
 Abstract: Een toepassingsprofiel, die een passende selectie van elementen uit de RDA standaard, voorzien van implementatie-voorbeelden, aanvullende richtlijnen en uitleg biedt voor het Nederlandse bibliografie domein.
 </pre>
