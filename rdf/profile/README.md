@@ -17,8 +17,8 @@ Bovendien biedt deze ontologie URI's voor de elementen die zowel voor machnines 
 ## rdanl in meer detail
 
 * De URI's van `rdanl` zijn uit het oogpunt van gebruiksgemak gedefinieerd binnen één *namespace*, te weten  `http://data.bibliotheken.nl/rdanl#`, bij voorkeur te gebruiken met als *namespace prefix* `rdanl`.
-* Klasses binnen `rdanl` zijn gedefinieerd als een `rdfs:subClassOf` van de overeenkomstige klasse in RDA.
-* Kenmerken zijn in `rdanl` gedefinieerd als een `rdfs:subPropertyOf` van het overeenkomstige kenmerk in RDA.
+* Klasses binnen `rdanl` zijn gedefinieerd als een `owl:sameAs` van de overeenkomstige klasse in RDA.
+* Kenmerken zijn in `rdanl` gedefinieerd als een `owl:sameAs` van het overeenkomstige kenmerk in RDA.
 * Als verbijzondering van een RDA-toepassingsprofiel voor monografieën *kunnen* kenmerken relevant voor andere materiaalsoorten ontbreken.
 * Ter ondersteuning van de [Persona-modellering](#persona-in-rda) is kenmerk `rdanl:relatedPersonaOfWork` toegevoegd, een `rdfs:subPropertyOf` van `rdanl:relatedNomenOfWork`. 
 * Een kracht van RDA is de grote rijkdom aan kenmerken die **rollen** aanduiden. Vanuit de genoemde vereenvoudigingsprincipes is er een voorkeur voor rollen die betrekking hebben op instanties van de `rdanl:Agent`-klasse.
