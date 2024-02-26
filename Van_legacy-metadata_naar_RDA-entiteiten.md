@@ -39,7 +39,7 @@ Het is raadzaam of vaak zelfs noodzakelijk de inhoud van onderstaande in de tabe
 
 Bij de omschrijving van de informatie-eenheden is voor de herkenbaarheid zoveel mogelijk gebruik gemaakt van FOBID/ISBD omschrijvingen. Daarnaast zijn de informatie-eenheden (waar mogelijk) gekoppeld aan de RDA-omschrijving van het overeenkomstige RDA-element. In de kolom VES/SES wordt aangegeven of een controlled vocabulary (*Vocabulary Encoding Scheme* of *VES* in RDA-terminologie) of een gestructureerde tekenreeks (*String Encoding Scheme* of *SES* in RDA-terminologie), gevolgd moet zijn of eventueel afgeleid kan worden. Met andere woorden, bij deze informatie-eenheden is het van belang dat de waardes consistent en/of gestructureerd ingevoerd zijn. Denk bijvoorbeeld aan land- en taalcodes of het gestructureerd opnemen van namen zodat voor- en achternaam onderscheiden kunnen worden. 
 
-In de kolom 'RDA entiteit' wordt aangegeven bij welke WEMI-entiteit de informatie-eenheden horen. In de tabel zijn alleen de minimaal benodigde gegevens voor het herkennen van de WEMI-entiteiten opgenomen (zie voor een volledig overzicht van de informatie-eenheden per WEMI-entiteit [TODO: het Excel-bestand met het Toepassingsprofiel](TODO)). 
+In de kolom 'RDA entiteit' wordt aangegeven bij welke WEMI-entiteit de informatie-eenheden horen. In de tabel zijn alleen de minimaal benodigde gegevens voor het herkennen van de WEMI-entiteiten opgenomen (zie voor een volledig overzicht van de informatie-eenheden per WEMI-entiteit: [Work](https://github.com/netwerk-digitaal-erfgoed/rdanl/blob/master/Work-kenmerken.md) [TODO: het Excel-bestand met het Toepassingsprofiel](TODO)). 
 
 
 <table class='data'>
