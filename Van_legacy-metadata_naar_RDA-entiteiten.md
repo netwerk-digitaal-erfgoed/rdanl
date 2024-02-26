@@ -221,7 +221,4 @@ In de kolom 'RDA entiteit' wordt aangegeven bij welke WEMI-entiteit de informati
     </tbody>
 </table>
 
-Zie ook voorbeelden:
 
-* [een traditionele titelbeschrijving, met minimale metadata voor RDA-entiteiten](#traditioneel_minimaal1)
-* [een traditionele titelbeschrijving van een vertaling, met minimale metadata voor RDA-entiteiten](#traditioneel_minimaal2)
