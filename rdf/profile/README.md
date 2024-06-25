@@ -12,7 +12,7 @@ Deze laatste groep kenmerken is toevoegd om zo de semantische rijkdom van RDA te
 
 Dit profiel in RDF is minder uitgebreid dan RDA, maar omdat het een **extensie van RDA** is, kan het waar nodig, gecombineerd worden met elementen uit RDA zelf.
 
-Bovendien biedt deze ontologie URI's voor de elementen die zowel voor machnines als **voor mensen leesbaar** zijn. De URI's zijn daarbij gebaseerd op de Engelstalige *lexical aliasses* van RDA. De bestaande *lexical aliasses* van RDA zijn wel voor mensen leesbaar, maar niet, of beperkt, machine-leesbaar omdat ze zich niet aan gangbare linked data-principes conformeren.
+Bovendien biedt deze ontologie URI's voor de elementen die zowel voor machines als **voor mensen leesbaar** zijn. De URI's zijn daarbij gebaseerd op de Engelstalige *lexical aliases* van RDA. De bestaande *lexical aliases* van RDA zijn wel voor mensen leesbaar, maar niet, of beperkt, machine-leesbaar omdat ze zich niet aan gangbare linked data-principes conformeren.
 
 ## rdanl in meer detail
 

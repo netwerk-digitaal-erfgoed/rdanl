@@ -18,7 +18,7 @@ In dit voorbeeld van RIMMF wordt niet de voorgestelde [Persona-aanpak](#persona-
     </thead>
     <tbody>
         <tr>
-            <td>rdfs:type</td>
+            <td>rdf:type</td>
             <td>**a**</td>
             <td>rdac:Work</td>
         </tr>
@@ -89,7 +89,7 @@ In dit voorbeeld van RIMMF wordt niet de voorgestelde [Persona-aanpak](#persona-
     </thead>
     <tbody>
         <tr>
-            <td>rdfs:type</td>
+            <td>rdf:type</td>
             <td>**a**</td>
             <td>rdanl:Expression</td>
         </tr>
@@ -138,7 +138,7 @@ In dit voorbeeld van RIMMF wordt niet de voorgestelde [Persona-aanpak](#persona-
     </thead>
     <tbody>
         <tr>
-            <td>rdfs:type</td>
+            <td>rdf:type</td>
             <td>**a**</td>
             <td>rdanl:Expression</td>
         </tr>
@@ -192,7 +192,7 @@ In dit voorbeeld van RIMMF wordt niet de voorgestelde [Persona-aanpak](#persona-
     </thead>
     <tbody>
         <tr>
-            <td>rdfs:type</td>
+            <td>rdf:type</td>
             <td>**a**</td>
             <td>rdanl:Expression</td>
         </tr>
@@ -254,7 +254,7 @@ In dit voorbeeld van RIMMF wordt niet de voorgestelde [Persona-aanpak](#persona-
     </thead>
     <tbody>
         <tr>
-            <td>rdfs:type</td>
+            <td>rdf:type</td>
             <td>**a**</td>
             <td>rdanl:Manifestation</td>
             <td></td>
@@ -376,7 +376,7 @@ In dit voorbeeld van RIMMF wordt niet de voorgestelde [Persona-aanpak](#persona-
     </thead>
     <tbody>
         <tr>
-            <td>rdfs:type</td>
+            <td>rdf:type</td>
             <td>**a**</td>
             <td>rdanl:Manifestation</td>
         </tr>
@@ -490,7 +490,7 @@ In dit voorbeeld van RIMMF wordt niet de voorgestelde [Persona-aanpak](#persona-
     </thead>
     <tbody>
         <tr>
-            <td>rdfs:type</td>
+            <td>rdf:type</td>
             <td>**a**</td>
             <td>rdanl:Manifestation</td>
         </tr>
