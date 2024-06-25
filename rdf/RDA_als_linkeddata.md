@@ -38,7 +38,7 @@ Enigszins terzijde: omdat de range van `rdaa:nameOfPerson` volgens RDA een `Nome
 	] .
 </xmp>
 
-RDA biedt overigens ook twee andere sets met kenmerken waarin de `rdfs:range` *wel* gedefinieerd is. Kenmerken zoals `rdaw:authorPerson` bieden twee *subproperties*. De ene *subproperty*, `rdawd:authorPerson`, heeft als `rdfs:range` de `rdfs:Literal`(hoewel dit voor het 'data type'-kenmerk niet expliciet gebeurt, ie ook [issue #182](https://github.com/RDARegistry/RDA-Vocabularies/issues/182)). De andere *subproperty*, `rdawo:authorPerson`, heeft als `rdfs:range` de klasse `rdaw:Person`. RDA noemt deze *subproperties* respectievelijk de ‘data type’-*subproperty* en de ‘object type’-*subproperty*. Het bovenliggende kenmerk `rdaw:authorPerson` moet binnen RDA als canoniek beschouwd worden.
+RDA biedt overigens ook twee andere sets met kenmerken waarin de `rdfs:range` *wel* gedefinieerd is. Kenmerken zoals `rdaw:authorPerson` bieden twee *subproperties*. De ene *subproperty*, `rdawd:authorPerson`, heeft als `rdfs:range` de `rdfs:Literal`(hoewel dit voor het 'data type'-kenmerk niet expliciet gebeurt, zie ook [issue #182](https://github.com/RDARegistry/RDA-Vocabularies/issues/182)). De andere *subproperty*, `rdawo:authorPerson`, heeft als `rdfs:range` de klasse `rdaw:Person`. RDA noemt deze *subproperties* respectievelijk de ‘data type’-*subproperty* en de ‘object type’-*subproperty*. Het bovenliggende kenmerk `rdaw:authorPerson` moet binnen RDA als canoniek beschouwd worden.
 
 ## Een veelheid aan beperkte kenmerken 
 Een keerzijde van de voorgaand beschreven insteek van RDA, die efficiënt en noodzakelijk kan zijn voor het catalogiseren in een *records*-gebaseerd systeem, is dat er een veelheid aan kenmerken, ontstaat terwijl dat binnen een strikt RDF-perspectief semantisch niet noodzakelijk is. Dit speelt des te meer, aangezien RDA niet alleen een onderscheidende *range* als criterium voor het instellen van een kenmerk hanteert, maar ook een onderscheidend *domain*. Daar waar voor een strikte linked data-benadering met één kenmerk als bijvoorbeeld `related` zou kunnen worden volstaan, biedt RDA nu 169 varianten (RDA biedt 13 klassen, 13 x 13 = 169 mogelijke onderlinge relaties) van `related`-kennmerken, zoals bijvoorbeeld `rdaa:relatedCorporateBodyOfAgent`, `rdaa:relatedAgenOfPerson`, `rdaa:relatedFamilyOfPerson` of `rdaa:relatedCollectiveAgentOfAgent`,  *etcetera*. Bedenk daarbij dat ieder canonieke kenmerk ook een 'data type'- en een 'object type'-kenmerk heeft (maakt in totaal 13 x 13 x 3 = 507 mogelijk kenmerken, enkel om aan te geven dat twee entiteiten aan elkaar gerelateerd zijn) én dat van al die properties ook *lexical aliases* gedefinieerd zijn, in een veelheid aan talen.
@@ -51,7 +51,7 @@ Binnen RDA wordt in de context van een kenmerk soms gesproken over een *superele
 	:element rdfs:subPropertyOf :superelement .
 </xmp>
 
-Dat is een **onjuiste aanname**. RDA doelt hier niet op een hiërarchische relatie. Een superelement is in RDA een kenmerk dat op *aggregerende* wijze gevens uit andere kenmerken overneemt.
+Dat is een **onjuiste aanname**. RDA doelt hier niet op een hiërarchische relatie. Een superelement is in RDA een kenmerk dat op *aggregerende* wijze gegevens uit andere kenmerken overneemt.
  
  
 ## Wel RDF, nog geen linked data
