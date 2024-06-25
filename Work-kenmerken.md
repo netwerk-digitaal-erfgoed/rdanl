@@ -137,7 +137,7 @@ Toe te passen RDA-kenmerken voor Work-entiteiten {#work-kenmerken}
         <tr>
             <td>[rdaw:P10256](http://rdaregistry.info/Elements/w/P10256)</td>
             <td>**subject**</td>
-            <td>gebruik waar zinvol een subkenmerk met een specifieke *range* (Gebruik van subkenmerken met een specifiekere *range* helpt om in *records*-gebaseerde systemen de klasse van het object expliciet te maken. In een linked data-omgeving wordt juist aangeraden om zo algemeen mogelijke kenmerken te gebruiken én de RDF-entiteiten expliciet van een klasse te voorzien.)</td>
+            <td>gebruik waar zinvol een subelement met een specifieke *range* (Gebruik van subelementen met een specifiekere *range* helpt om in *records*-gebaseerde systemen de klasse van het object expliciet te maken. In een linked data-omgeving wordt juist aangeraden om zo algemeen mogelijke kenmerken te gebruiken én de RDF-entiteiten expliciet van een klasse te voorzien.)</td>
             <td>-</td>
             <td></td>
             <td>O</td>
@@ -146,7 +146,7 @@ Toe te passen RDA-kenmerken voor Work-entiteiten {#work-kenmerken}
             <td></td>
         </tr>
         <tr>
-            <td>[rdaw:P10353](http://rdaregistry.info/Elements/w/10353)</td>
+            <td>[rdaw:P10353](http://rdaregistry.info/Elements/w/P10353)</td>
             <td>**languageOfRepresentativeExpression**</td>
             <td>oorspronkelijke taal (bij vertalingen), gebruik indien geen **representativeExpression** aanwijsbaar</td>
             <td>-</td>
@@ -180,7 +180,7 @@ Toe te passen RDA-kenmerken voor Work-entiteiten {#work-kenmerken}
         <tr>
             <td>[rdaw:P10065](http://rdaregistry.info/Elements/w/P10065)</td>
             <td>**creatorAgentOfWork**</td>
-            <td>gebruik wat betreft de rol een zo specifiek mogelijk subelement (Gebruik van subkenmerken met een specifiekere *range* helpt om in *records*-gebaseerde systemen de klasse van het object expliciet te maken. In een linked data-omgeving wordt juist aangeraden om zo algemeen mogelijke kenmerken te gebruiken én de RDF-entiteiten expliciet van een klasse te voorzien.)</td>
+            <td>gebruik wat betreft de rol een zo specifiek mogelijk subelement (Gebruik van subelementen met een specifiekere *range* helpt om in *records*-gebaseerde systemen de klasse van het object expliciet te maken. In een linked data-omgeving wordt juist aangeraden om zo algemeen mogelijke kenmerken te gebruiken én de RDF-entiteiten expliciet van een klasse te voorzien.)</td>
             <td>`Agent`</td>
             <td>S / Id / IRI</td>
             <td>M</td>
