@@ -2,7 +2,7 @@ Minimaal vereiste metadata in een traditionele titelbeschrijving {#traditioneel_
 ----------------
 
 <div class="example">
-<table class='complex data'>
+<table class='data'>
     <tr>
         <th>Type inhoud:</th>
         <td>🟦tekst🟦 (rdacontent/dut)</td>

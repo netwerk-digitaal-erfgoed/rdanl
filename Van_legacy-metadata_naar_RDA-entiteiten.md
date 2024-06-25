@@ -18,7 +18,7 @@ Het stappenplan valt uiteen in twee fasen:
 ### Fase 1: stappen voor op orde brengen basiskwaliteit metadata 
 
  
-- **Stap 1:** Selecteer de bibliografische metadata van de publicaties die binnen de scope van voorliggend profiel valt vallen,  
+- **Stap 1:** Selecteer de bibliografische metadata van de publicaties die binnen de scope van voorliggend profiel vallen,  
 - **Stap 2:** Controleer deze dataset aan de hand van de minimale metadata-eisen (*zie tabel 1.*),  
 - **Stap 3:** Voer waar nodig opschoonacties en normalisaties op de metadata uit,  
 - **Stap 4:** Toets de opgeschoonde metadata aan het RDA Toepassingsprofiel Monografieën 
