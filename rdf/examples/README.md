@@ -26,7 +26,7 @@ path: rdf/examples/personae_rdanl.ttl
 highlight: turtle
 </pre>
 
-Ter vergelijking is het voorbeeld in het schema.org-vocabulaire uitgewerkt. Dit op basis van het [LRM to schema.org-toepassingsprofiel](http://data.bibliotheken.nl//files/LRM2schema.pdf).
+Ter vergelijking is het voorbeeld in het schema.org-vocabulaire uitgewerkt. Dit op basis van het [LRM to schema.org-toepassingsprofiel](http://data.bibliotheken.nl/files/LRM2schema.pdf).
 
 <pre class=include-code>
 path: rdf/examples/example_schema.ttl
@@ -36,7 +36,7 @@ highlight: turtle
 ## Gevolgde principes
 De voorbeeld-RDF van "*Een vrouw van het noorden*" is op de volgende principes gebaseerd:
 
-* Informatie-eenheden worden zo veel mogelijk als een RDA/RDF-entiteit gedefinieerd, met uitzonder van `Nomens` en `Timespans`. Deze laatsten worden standaard als `rdfs:Literal` opgenomen, tenzij er semantische noodzaak is ze toch als entiteit op te nemen.
+* Informatie-eenheden worden zo veel mogelijk als een RDA/RDF-entiteit gedefinieerd, met uitzondering van `Nomens` en `Timespans`. Deze laatste worden standaard als `rdfs:Literal` opgenomen, tenzij er semantische noodzaak is ze toch als entiteit op te nemen.
 * Alle entiteiten worden expliciet van een klasse-aanduiding voorzien. Dit verhoogt de begrijpelijkheid van de RDF én maakt het mogelijk om generieke relaties toe te passen.
 * De kenmerken worden zo generiek mogelijk gekozen. Doordat alle entiteiten van  een klasse-aanduiding voorzien zijn, doet dit geen afbraak aan de semantische rijkdom. Het bevragen van de data, bijvoorbeeld met SPARQL, wordt hierdoor ook vereenvoudigd.
 * Voor taalcodes wordt [IETF BCP 47](https://www.rfc-editor.org/info/bcp47) gebruikt. Het gebruik van URI’s boven literals heeft hier geen meerwaarde.
