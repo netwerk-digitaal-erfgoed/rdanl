@@ -9,7 +9,7 @@ RDA is gegrondvest op het IFLA Library Reference Model (LRM). LRM is een model d
 
 * `Work`: Een intellectuele of artistieke creatie op het **conceptuele niveau**. 
 
-* `Expression`: De **vastlegde intellectuele of artistieke realisatie** van een `Work`, bijvoorbeeld als een tekst, in muzikale of choreografische notatie, etc., of een combinatie van dergelijke vormen. 
+* `Expression`: De **vastgelegde intellectuele of artistieke realisatie** van een `Work`, bijvoorbeeld als een tekst, in muzikale of choreografische notatie, etc., of een combinatie van dergelijke vormen. 
 
 * `Manifestation`: Het **productieplan voor de fysieke belichaming** van een `Expression` . 
 
@@ -19,7 +19,7 @@ LRM is niet alleen geschikt voor het beschrijven van bibliografische objecten. D
 
 Naast de klasses van de genoemde WEMI-entiteiten, kent LRM ook de klasse `Agent` voor de **verantwoordelijke** voor een *resource*. De klasse `Agent` heeft subklasses de `Person` en de `Collective Agent`. Deze laatste kan ook weer verdeeld worden in de `Corporate Body` en de `Family`.
 
-Hiernaast kent LRM ook de klasses `Nomen` en `Timespan` en een overkoepelende `superklasse` waar alle klasses toe behoren.
+Hiernaast kent LRM ook de klasses `Place`, `Nomen` en `Timespan` en een overkoepelende `superklasse` waar alle klasses toe behoren.
 
 ## RDA
 
@@ -37,7 +37,7 @@ RDA spreekt ook over *String Encoding Schemes* (**SES**). Het gaat daarbij om af
 De data-elementen van RDA zijn formeel gedefinieerd in RDF (het *Resource Description Framework*), wat RDA ook zeer geschikt maakt voor linked data-toepassingen. Alle beschrijvingen in RDA zijn daarmee eenvoudig als zogenaamde linked data-*triples* op te slaan. De **definities** van de RDA-elementen, zijn te vinden in de [RDA Registry](https://www.rdaregistry.info), ook in RDF-vorm. De **richtlijnen** en **instructies** voor de toepassing van RDA zijn te vinden in de [RDA Toolkit](https://rdatoolkit.org/).
 
 ### *Range* en *recording methods* in RDA
-RDA specificeert bij ieder kenmerk op welke klasse entiteiten het betrekking heeft. Dit wordt het *domain* van het kenmerk genoemd. Bovendien geeft RDA voor kenmerken *die een relatie beschrijven* ook aan, naar welke klasse entiteit het kenmerk verwijst (als waarde van het kenmerk). Zo is bijvoorbeeld het *domain* van de relatie `rdaw:authorPerson` het `Work` en de *range*, zoals de naam ook suggereerd, een `Person`.
+RDA specificeert bij ieder kenmerk op welke klasse entiteiten het betrekking heeft. Dit wordt het *domain* van het kenmerk genoemd. Bovendien geeft RDA voor kenmerken *die een relatie beschrijven* ook aan, naar welke klasse entiteit het kenmerk verwijst (als waarde van het kenmerk). Dit wordt de *range* van het kenmerk genoemd.  Zo is bijvoorbeeld het *domain* van de relatie `rdaw:authorPerson` het `Work` en de *range*, zoals de naam ook suggereerd, een `Person`.
 
 De waarde van een RDA-kenmerk *moet* dus voldoen aan de gespecificeerde *range*. RDA biedt verschillende manieren om dit te correct vast te leggen. Er kan bijvoorbeeld direct naar een `Person`-entiteit verwezen worden door de linked data-IRI van die persoon op te nemen. In RDA is ook het volgende toegestaan:
 
